@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Quicksand:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p,
+::placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Style to rotate chevron icon */
+.rotate {
+  transform: rotate(90deg);
+  transition: transform 0.5s ease;
+}
+
+/* Styling for file selector button */
+input[type="file"]::-webkit-file-upload-button {
+  border: 2px solid #6c5ce7;
+  background-color: #f7fafc;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  transition: 0.8s;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+input[type="file"]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  background-color: #f7fafc;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  transition: 1s;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #c6c3f7;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #c6c3f7;
+}
