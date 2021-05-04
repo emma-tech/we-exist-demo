@@ -13,7 +13,7 @@ const nodemailer = require("nodemailer");
 
 dotenv.config();
 
-const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/we-exist-api";
+const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/we-exist-demo-api";
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = Promise;
 
