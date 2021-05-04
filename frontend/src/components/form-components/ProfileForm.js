@@ -76,7 +76,7 @@ export const ProfileForm = ({ toggleIsOn, setUpdate, update }) => {
           setUpdate(!update);
 
           fetch(
-            `https://project-we-exist.herokuapp.com/candidates/${candidateId}`,
+            `https://we-exist-demo-technigo.herokuapp.com/candidates/${candidateId}`,
             {
               method: "PATCH",
               body: JSON.stringify({
@@ -122,7 +122,7 @@ export const ProfileForm = ({ toggleIsOn, setUpdate, update }) => {
             const formData = new FormData();
             formData.append("imageUrl", fileInput.current.files[0]);
 
-            fetch(`https://project-we-exist.herokuapp.com/candidate/image/${candidateId}`, {
+            fetch(`https://we-exist-demo-technigo.herokuapp.com/candidate/image/${candidateId}`, {
               method: "PATCH",
               body: formData,
             })

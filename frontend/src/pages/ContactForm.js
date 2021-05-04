@@ -21,7 +21,7 @@ export const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://project-we-exist.herokuapp.com/contact", {
+    fetch("https://we-exist-demo-technigo.herokuapp.com/contact", {
       method: "POST",
       body: JSON.stringify({ name, email, message }),
       headers: {

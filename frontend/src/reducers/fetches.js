@@ -1,6 +1,6 @@
 import { candidate } from "./candidate";
 
-const SIGNUP_URL = 'https://project-we-exist.herokuapp.com/candidates';
+const SIGNUP_URL = 'https://we-exist-demo-technigo.herokuapp.com/candidates';
 
 //fetch for signup
 export const signup = (formData) => {

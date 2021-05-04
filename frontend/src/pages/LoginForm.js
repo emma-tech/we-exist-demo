@@ -21,7 +21,7 @@ import { Status } from "../components/Status";
 
 // LOG IN FORM --------------------------------------
 export const LoginForm = () => {
-  const LOGIN_URL = "https://project-we-exist.herokuapp.com/sessions";
+  const LOGIN_URL = "https://we-exist-demo-technigo.herokuapp.com/sessions";
   const dispatch = useDispatch();
   const history = useHistory();
 

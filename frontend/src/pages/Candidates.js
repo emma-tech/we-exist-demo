@@ -17,7 +17,7 @@ import { Loader } from "../components/Loader";
 // CANDIDATES PAGE --------------------------------------
 export const Candidates = () => {
   //const CANDIDATE_URL = "http://localhost:8080/candidates";
-  const CANDIDATE_URL = "https://project-we-exist.herokuapp.com/candidates";
+  const CANDIDATE_URL = "https://we-exist-demo-technigo.herokuapp.com/candidates";
   const [candidates, setCandidates] = useState([]);
   const [filteredCandidates, setFilteredCandidates] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");

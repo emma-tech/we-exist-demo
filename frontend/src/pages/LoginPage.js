@@ -35,7 +35,7 @@ export const LoginPage = () => {
   const getCandidateInfo = (candidateId, accessToken) => {
     dispatch(candidate.actions.setLoader(true));
     
-    fetch(`https://project-we-exist.herokuapp.com/candidates/${candidateId}`, {
+    fetch(`https://we-exist-demo-technigo.herokuapp.com/candidates/${candidateId}`, {
       method: "GET",
       headers: { Authorization: accessToken },
     })
@@ -65,7 +65,7 @@ export const LoginPage = () => {
   };
   
   const handleDeleteAccount = () => {
-    fetch(`https://project-we-exist.herokuapp.com/candidates/${candidateId}`, {
+    fetch(`https://we-exist-demo-technigo.herokuapp.com/candidates/${candidateId}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     })
