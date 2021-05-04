@@ -6,5 +6,5 @@ Final project in the Technigo bootcamp (fall 2020) made by Emma Urman, Anna Hell
 Node.js, Express, MongoDB, Mongoose, React, JSX, Redux, JavaScript, CSS, Styled Components.
 
 ## View it live 🚀
-Demo of the project (will be moved to a new domain later): 
-https://projectweexist.netlify.app/
+Demo of the Technigo final project: 
+https://we-exist-demo-technigo.netlify.app/
